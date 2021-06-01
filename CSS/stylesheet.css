@@ -40,7 +40,12 @@ footer {
 
 /* Cta */
 
-.ta {
+.main__logo {
+  width: 15%;
+  margin: 0% 0% 0% 2%;
+}
+
+.cta {
   background-color: #0A3641;
   color: #FFFFFF;
   text-decoration: none;
@@ -50,12 +55,12 @@ footer {
 
 }
 
-.main__logo {
-  width: 15%;
-  margin: 0% 0% 0% 2%;
+.material-icons {
+  color: black;
+  text-decoration: none;
+  
 }
 
 .socialmedia_icons, img {
-  width: 5%;
-  color: 
+  width: 4%;
 }
