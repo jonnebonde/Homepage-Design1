@@ -1,3 +1,4 @@
 .background {
   background-image: url(/images/Homepage_background-min.jpg);
+  background-size: contain;
 }
