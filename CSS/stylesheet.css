@@ -1,6 +1,6 @@
 /* background image*/
 body {
-  background-image: url(../images/Homepage_background-min.jpg);
+  background-image: url(../images/Homepage_background_min.jpg);
   background-position: center;
   background-position-y:-100px
  
@@ -47,4 +47,11 @@ footer {
 
 }
 
-.main__logo
+.main__logo {
+  width: 15%;
+  margin: 0% 0% 0% 2%;
+}
+
+.socialmedia_icons, img {
+  width: 2%;
+}
