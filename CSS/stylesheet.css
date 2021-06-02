@@ -4,27 +4,27 @@ body {
   background-color: whitesmoke;
   background-repeat: no-repeat;
   background-size: cover ;
-  background-position: center;
+  background-position-x: center;
   background-position-y: 0%;
  
 }
 /* fonts */
 nav {
   font-family: Tahoma,Verdana,Segoe,sans-serif;
-  font-size: 30px;
+  font-size: 1.7vw;
   color: #707070 ;
 }
 
 h1 {
   font-family: Arial, sans-serif;
-  font-size: 60px;
+  font-size: 4vw;
   color: #707070 ;
   font-weight: lighter;
   text-align: center;
 }
 main {
   font-family: Arial, sans-serif;
-  font-size: 30px;
+  font-size: 1.6vw;
   color: #DDDDDD;
   font-weight: bold;
   
@@ -32,7 +32,7 @@ main {
 
 footer {
   font-family: Arial, sans-serif;
-  font-size: 17px;
+  font-size: 1vw;
   color: #FFFFFF;
   font-weight: lighter;
 
@@ -62,5 +62,5 @@ footer {
 }
 
 .socialmedia_icons, img {
-  width: 4%;
+  width: 3%;
 }
