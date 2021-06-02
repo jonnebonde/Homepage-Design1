@@ -6,8 +6,8 @@ html {
   background-size: cover ;
   background-position: center;
   height: 100%;
- 
 
+}
 /* fonts */
 nav {
   font-family: Tahoma,Verdana,Segoe,sans-serif;
@@ -61,6 +61,18 @@ footer {
   
 }
 
+.fas {
+  color: black;
+  text-decoration: none;
+  font-size: 2vw;
+}
+
+.socialmedia_icons {
+  text-align: 
+}
+
 .socialmedia_icons, img {
   width: 3%;
 }
+
+/* grid */
