@@ -40,19 +40,20 @@ footer {
 
 /* Cta */
 
-.main__logo {
-  width: 15%;
-  margin: 0% 0% 0% 2%;
-}
 
 .cta {
   background-color: #0A3641;
   color: #FFFFFF;
   text-decoration: none;
   text-align: center;
-  padding: 4px 60px;
+  padding: 4px 40px;
   border-radius: 7px;
 
+}
+
+.main_logo {
+  height: 150px;
+  margin-left: 10px;
 }
 
 .material-icons {
@@ -77,4 +78,34 @@ footer {
 
 .nav_cta {
   display: flex;
+  justify-content: space-between;
+}
+
+.cta_buttons {
+  margin-top: 52.5px;
+}
+
+.icons {
+  margin: 52.5px ;
+}
+
+main {
+  position: center;
+}
+
+.adjectives {
+  display: flex;
+
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 0;
+}
+
+.sosialmedia__icons {
+  list-style-type: none;
+
 }
