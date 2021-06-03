@@ -40,20 +40,20 @@ footer {
 
 /* Cta */
 
-
 .cta {
   background-color: #0A3641;
   color: #FFFFFF;
   text-decoration: none;
   text-align: center;
-  padding: 4px 40px;
+  padding: 3px 30px;
   border-radius: 7px;
 
 }
 
-.main_logo {
-  height: 150px;
-  margin-left: 10px;
+.main__logo img {
+ width: 100%; 
+ margin: 10px 0px 0px 20px;
+
 }
 
 .material-icons {
@@ -61,13 +61,14 @@ footer {
   text-decoration: none;
   
 }
-
+.nav_icons {
+  margin-right: 20px;
+}
 .fas {
   color: black;
   text-decoration: none;
   font-size: 2vw;
 }
-
 
 
 .socialmedia_icons, img {
@@ -76,36 +77,18 @@ footer {
 
 /* grid */
 
-.nav_cta {
+.nav {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+
+   
+}
+.nav_logo {
+ width: 14vw;
 }
 
-.cta_buttons {
-  margin-top: 52.5px;
-}
-
-.icons {
-  margin: 52.5px ;
-}
-
-main {
+.nav_cta {
   position: center;
 }
 
-.adjectives {
-  display: flex;
-
-}
-
-footer {
-  display: flex;
-  justify-content: space-evenly;
-  position: absolute;
-  bottom: 0;
-}
-
-.sosialmedia__icons {
-  list-style-type: none;
-
-}
