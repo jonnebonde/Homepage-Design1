@@ -18,7 +18,7 @@ nav {
 
 h1 {
   font-family: Arial, sans-serif;
-  font-size: 4vw;
+  font-size: 3vw;
   color: #707070 ;
   font-weight: lighter;
   text-align: center;
@@ -37,7 +37,7 @@ footer {
   font-size: 1vw;
   color: #FFFFFF;
   font-weight: lighter;
-  width: 100%;
+  max-width: 100%;
   position: absolute;
   bottom: 0;
   display: flex;
@@ -78,10 +78,6 @@ ul {
   font-size: 2vw;
 }
 
-.socialmedia__icons {
-  right: 0;
-}
-
 .socialmedia__icons img {
   width: 4%;
 }
@@ -92,8 +88,7 @@ ul {
 
 .adjectives {
   display: flex;
+  justify-content display: flex;
+  align-items: center;
   justify-content: space-evenly;
-}
-
-
-
+  }
