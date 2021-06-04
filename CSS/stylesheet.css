@@ -98,10 +98,11 @@ ul {
 
 @media only screen and (max-width: 590px) {
   nav {
-    justify-content: center
+    flex-direction: column;
   }
   .nav_cta, .nav_icons {
-    display: none;
+    
+    
   }
   .main__logo img {
     width: 100%;
