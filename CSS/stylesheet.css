@@ -16,10 +16,9 @@ nav {
   justify-content: space-between;  
 }
 
-
 .main__logo img {
   width: 100%; 
-  margin: 10px 0px 0px 20px;
+  margin: 10px 0px 20px 20px;
 }
 
 .nav_logo {
@@ -64,12 +63,11 @@ main {
   display: flex;
   justify-items: center;
   justify-content: space-evenly;
-  margin-top: 300px;
   } 
 
 footer {
   font-family: Arial, sans-serif;
-  font-size: 0.7vw;
+  font-size: 1vw;
   color: #FFFFFF;
   font-weight: lighter;
   max-width: 100% ;
@@ -96,6 +94,19 @@ ul {
 
 .socialmedia__icons img {
   width: 2vw;
-
 }
 
+@media only screen and (max-width: 590px) {
+  nav {
+    justify-content: center
+  }
+  .nav_cta, .nav_icons {
+    display: none;
+  }
+  .main__logo img {
+    width: 100%;
+    margin: 0px 0px 10px 0px
+  }
+
+
+}
