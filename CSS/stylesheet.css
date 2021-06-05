@@ -7,13 +7,13 @@ html {
   height: 100%;
 }
 
-nav {
+nav  {
   font-family: Tahoma,Verdana,Segoe,sans-serif;
   font-size: 1.7vw;
   color: #707070;
   display: flex;
   align-items: center;
-  justify-content: space-between;  
+  justify-content:space-between;  
 }
 
 .main__logo img {
@@ -97,15 +97,22 @@ ul {
 }
 
 @media only screen and (max-width: 590px) {
+html {
+  height: 100vh;
+}
+
   nav {
     flex-direction: column;
   }
-  .nav_cta, .nav_icons {
-    
-  }
+  
   .main__logo img {
     width: 100%;
     margin: 0px 0px 10px 0px
   }
 
-}
+  .nav_icons {
+    position: absolute;
+    right: 0;
+    margin-right: 2vw;
+  }
+  
