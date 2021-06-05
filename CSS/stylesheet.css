@@ -21,6 +21,11 @@ nav  {
   margin: 10px 0px 20px 20px;
 }
 
+.cta:hover {
+  background-color:white;
+  color: #0A3641;
+  border: solid;
+}
 .nav_logo {
   width: 14vw;
 }
@@ -44,6 +49,9 @@ nav  {
   font-size: 2vw;
 }
 
+.fas:hover {
+  color: #707070;
+}
 h1 {
   font-family: Arial, sans-serif;
   font-size: 3vw;
@@ -84,8 +92,13 @@ ul {
 
 .socialmedia__icons {
   margin-right: 20px;
+  text-decoration: none;
 }
 
+.socialmedia__icons img:hover {
+  border-bottom: solid;
+  border-color: #FFFFFF;
+}
 .socialmedia__icons img {
   width: 2vw;
 }
