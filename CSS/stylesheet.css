@@ -52,12 +52,6 @@ h1 {
   text-align: center;
 }
 
-main {
-  font-family: Arial, sans-serif;
-  font-size: 1.6vw;
-  color: #DDDDDD;
-  font-weight: bold;
-}
 
 .adjectives {
   display: flex;
@@ -97,11 +91,9 @@ ul {
 }
 
 @media only screen and (max-width: 590px) {
-html {
-  height: 100vh;
-}
 
   nav {
+    font-size: 5vw;
     flex-direction: column;
   }
   
@@ -110,9 +102,34 @@ html {
     margin: 0px 0px 10px 0px
   }
 
+  .nav_logo {
+    width: 40vw;
+  }
+  .fas {
+    font-size: 5vw;
+  }
+  .cta {
+    
+  }
   .nav_icons {
     position: absolute;
     right: 0;
     margin-right: 2vw;
   }
   
+  h1 {
+    font-size: 6vw;
+    margin-top: 20vw;
+  }
+
+  .adjectives {
+    font-size: 4vw;
+  }
+  
+  footer {
+    font-size: 2.5vw;
+  }
+
+  .socialmedia__icons img {
+    width: 5vw;
+  }
