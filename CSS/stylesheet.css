@@ -104,7 +104,11 @@ ul {
 }
 
 @media only screen and (max-width: 590px) {
-
+  
+  html {
+    pointer-events: none;
+  }
+  
   nav {
     font-size: 5vw;
     flex-direction: column;
