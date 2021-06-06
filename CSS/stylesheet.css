@@ -19,6 +19,7 @@ nav  {
 .main__logo img {
   width: 100%; 
   margin: 10px 0px 20px 20px;
+
 }
 
 .cta:hover {
@@ -51,6 +52,7 @@ nav  {
 
 .fas:hover {
   color: #707070;
+  
 }
 h1 {
   font-family: Arial, sans-serif;
@@ -96,8 +98,7 @@ ul {
 }
 
 .socialmedia__icons img:hover {
-  border-bottom: solid;
-  border-color: #FFFFFF;
+  -webkit-filter: invert(100%)
 }
 .socialmedia__icons img {
   width: 2vw;
