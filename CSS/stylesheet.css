@@ -19,7 +19,6 @@ nav  {
 .main__logo img {
   width: 100%; 
   margin: 10px 0px 20px 20px;
-
 }
 
 .cta:hover {
@@ -52,8 +51,8 @@ nav  {
 
 .fas:hover {
   color: #707070;
-  
 }
+
 h1 {
   font-family: Arial, sans-serif;
   font-size: 3vw;
@@ -62,12 +61,11 @@ h1 {
   text-align: center;
 }
 
-
 .adjectives {
   display: flex;
   justify-items: center;
   justify-content: space-evenly;
-  } 
+} 
 
 footer {
   font-family: Arial, sans-serif;
@@ -78,7 +76,6 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-
 }
 
 .footer {
@@ -86,6 +83,7 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
+
 ul {
   margin-left: 10px;
   padding: 0;
@@ -101,6 +99,7 @@ ul {
   -webkit-filter: invert(100%);
   filter: invert(100%);
 }
+
 .socialmedia__icons img {
   width: 2vw;
 }
@@ -120,10 +119,11 @@ ul {
     width: 100%;
     margin: 0px 0px 10px 0px
   }
-
+  
   .nav_logo {
     width: 40vw;
   }
+  
   .fas {
     font-size: 6vw;
   }
