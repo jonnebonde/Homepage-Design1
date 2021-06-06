@@ -98,7 +98,8 @@ ul {
 }
 
 .socialmedia__icons img:hover {
-  -webkit-filter: invert(100%)
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
 }
 .socialmedia__icons img {
   width: 2vw;
@@ -126,9 +127,7 @@ ul {
   .fas {
     font-size: 6vw;
   }
-  .cta {
-    
-  }
+  
   .nav_icons {
     position: absolute;
     right: 0;
